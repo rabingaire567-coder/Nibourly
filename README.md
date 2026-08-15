@@ -33,6 +33,8 @@ Nibourly connects neighbours across all **77 districts** of Nepal: report local 
 2. Tap **"Open https://aistudio.google.com/apikey"** (or https://console.groq.com/keys)
 3. Create a free key and paste it in Settings → **Test Connection**
 
+**Free & fast Gemini models included:** `gemini-2.5-flash` (default, fast), `gemini-2.5-flash-lite` (fastest), `gemini-2.0-flash`, `gemini-1.5-flash`, `gemini-2.5-pro` (smartest). Flash models answer in seconds — thinking is disabled on 2.5 models for speed.
+
 > No key? No problem — Mitra answers instantly from the built-in Nepal knowledge base.
 
 ## 🚀 Run Locally

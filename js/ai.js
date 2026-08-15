@@ -14,10 +14,23 @@ const NibourlyAI = (function () {
       label: 'Google Gemini (recommended — free)',
       keyUrl: 'https://aistudio.google.com/apikey',
       keyHint: 'Paste your Gemini API key (AIza...)',
-      models: ['gemini-1.5-flash', 'gemini-2.0-flash', 'gemini-1.5-pro'],
+      models: ['gemini-2.5-flash', 'gemini-2.5-flash-lite', 'gemini-2.0-flash', 'gemini-1.5-flash', 'gemini-2.5-pro'],
       async ask(msgs, key, model) {
-        const url = 'https://generativelanguage.googleapis.com/v1beta/models/' + (model || 'gemini-1.5-flash') + ':generateContent?key=' + encodeURIComponent(key);
-        const body = { contents: msgs.map(m => ({ role: m.role === 'assistant' ? 'model' : 'user', parts: [{ text: m.content }] })) };
+        const modelName = model || 'gemini-2.5-flash';
+        const url = 'https://generativelanguage.googleapis.com/v1beta/models/' + modelName + ':generateContent?key=' + encodeURIComponent(key);
+        const system = msgs.find(m => m.role === 'system');
+        const gen = {
+          maxOutputTokens: 700,
+          temperature: 0.6,
+          topP: 0.95,
+          responseModalities: ['TEXT']
+        };
+        if (modelName.indexOf('2.5') !== -1) gen.thinkingConfig = { thinkingBudget: 0 };
+        const body = {
+          systemInstruction: system ? { parts: [{ text: system.content }] } : undefined,
+          contents: msgs.filter(m => m.role !== 'system').map(m => ({ role: m.role === 'assistant' ? 'model' : 'user', parts: [{ text: m.content }] })),
+          generationConfig: gen
+        };
         const res = await fetch(url, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(body) });
         if (!res.ok) { let e = ''; try { e = (await res.json()).error.message; } catch (x) {} throw new Error('Gemini error ' + res.status + ': ' + e); }
         const j = await res.json();
