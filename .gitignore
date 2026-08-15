@@ -1,0 +1,15 @@
+# Dependencies / tooling
+node_modules/
+*.log
+
+# OS junk
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+
+# Backups
+*.zip

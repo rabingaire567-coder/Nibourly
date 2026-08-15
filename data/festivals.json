@@ -1,0 +1,166 @@
+{
+  "festivals": [
+    {
+      "name": "Maghe Sankranti",
+      "np": "माघे संक्रान्ति",
+      "date": "Jan 14",
+      "month": "Magh 1",
+      "region": "Nationwide",
+      "color": "#f59e0b",
+      "desc": "First day of Magh — til laddoo, ghee & yam feasts; the big Khichdi fair at Gorkha's Malik Arjun temple."
+    },
+    {
+      "name": "Sonam Losar",
+      "np": "सोनाम ल्होसार",
+      "date": "Feb 13",
+      "month": "Magh 30",
+      "region": "Tamang communities",
+      "color": "#e23744",
+      "desc": "Tamang New Year — dances, momo feasts and family gatherings across the hills."
+    },
+    {
+      "name": "Maha Shivaratri",
+      "np": "महाशिवरात्रि",
+      "date": "Feb 25",
+      "month": "Falgun 14",
+      "region": "Pashupatinath, nationwide",
+      "color": "#7b1fa2",
+      "desc": "Night of Lord Shiva — sadhus and devotees flock to Pashupatinath; bonfires of devotion."
+    },
+    {
+      "name": "Gyalpo Losar",
+      "np": "ग्याल्पो ल्होसार",
+      "date": "Feb 27",
+      "month": "Falgun 16",
+      "region": "Sherpa, Gurung, Bhote",
+      "color": "#0ea5e9",
+      "desc": "Himalayan Buddhist New Year — prayer flags, khapse cookies, family puja."
+    },
+    {
+      "name": "Fagu Purnima (Holi)",
+      "np": "फागु पूर्णिमा",
+      "date": "Mar 13",
+      "month": "Falgun 29",
+      "region": "Nationwide",
+      "color": "#ec4899",
+      "desc": "Festival of colours — lola (bonfire) on the eve, then colours, water balloons and Laxmi Prasad Devkota's poem everywhere."
+    },
+    {
+      "name": "Ghode Jatra",
+      "np": "घोडे जात्रा",
+      "date": "Apr 1",
+      "month": "Chaitra 18",
+      "region": "Kathmandu",
+      "color": "#8b5cf6",
+      "desc": "Horse parade at Tundikhel — Newari tradition chasing away the demon Tundi."
+    },
+    {
+      "name": "Bisket Jatra",
+      "np": "बिस्केट जात्रा",
+      "date": "Apr 13",
+      "month": "Chaitra 30",
+      "region": "Bhaktapur",
+      "color": "#f43f5e",
+      "desc": "Bhaktapur's New Year chariot festival — giant lingo poles pulled through the streets."
+    },
+    {
+      "name": "Nepali New Year 2083",
+      "np": "नयाँ वर्ष",
+      "date": "Apr 14",
+      "month": "Baisakh 1",
+      "region": "Nationwide",
+      "color": "#10b981",
+      "desc": "Bikram Sambat New Year — a fresh start with parades, sweets and family time."
+    },
+    {
+      "name": "Buddha Jayanti",
+      "np": "बुद्ध जयन्ती",
+      "date": "May 11",
+      "month": "Baisakh 28",
+      "region": "Lumbini, nationwide",
+      "color": "#f5a524",
+      "desc": "Birth, enlightenment and mahaparinirvana of Buddha — lamps & prayers at Lumbini."
+    },
+    {
+      "name": "Janai Purnima & Raksha Bandhan",
+      "np": "जनै पूर्णिमा",
+      "date": "Aug 8",
+      "month": "Shrawan 22",
+      "region": "Nationwide",
+      "color": "#0d9488",
+      "desc": "Sacred thread (janai) changing for men, rakhi for siblings, and the khar-khadka at Gosaikunda."
+    },
+    {
+      "name": "Krishna Janmashtami",
+      "np": "कृष्ण जन्माष्टमी",
+      "date": "Aug 17",
+      "month": "Bhadra 1",
+      "region": "Patan, nationwide",
+      "color": "#2563eb",
+      "desc": "Birth of Krishna — night vigils and the famous Krishna Mandir festival in Patan."
+    },
+    {
+      "name": "Gai Jatra",
+      "np": "गाई जात्रा",
+      "date": "Aug 28",
+      "month": "Bhadra 12",
+      "region": "Kathmandu Valley",
+      "color": "#c084fc",
+      "desc": "Cow festival — processions, satire and comedy remembering the departed."
+    },
+    {
+      "name": "Indra Jatra",
+      "np": "इन्द्र जात्रा",
+      "date": "Sep 10",
+      "month": "Bhadra 25",
+      "region": "Kathmandu",
+      "color": "#e11d48",
+      "desc": "Indra, god of rain — Kumari Jatra, the Living Goddess rides out, Bhairab masks and dancing."
+    },
+    {
+      "name": "Teej",
+      "np": "तीज",
+      "date": "Sep 13",
+      "month": "Bhadra 27",
+      "region": "Nationwide",
+      "color": "#ef4444",
+      "desc": "Women's festival — red dresses, fasting for husbands' long life, singing & dancing to Shiva."
+    },
+    {
+      "name": "Matatirtha Aunsi",
+      "np": "मातातीर्थ औंसी",
+      "date": "Sep 25",
+      "month": "Ashwin 9",
+      "region": "Nationwide",
+      "color": "#64748b",
+      "desc": "Mother's Day — remember and honour mothers; sweet feast of sagun."
+    },
+    {
+      "name": "Dashain",
+      "np": "दशैं",
+      "date": "Oct 18 (Tika)",
+      "month": "Ashwin–Kartik",
+      "region": "Nationwide",
+      "color": "#e23744",
+      "desc": "The greatest festival — 15 days of victory of Durga over evil. Jamara, kites, swings (ping), tika & jamara on Dashami, and family reunions."
+    },
+    {
+      "name": "Tihar",
+      "np": "तिहार",
+      "date": "Nov 2–6",
+      "month": "Kartik 16–20",
+      "region": "Nationwide",
+      "color": "#f59e0b",
+      "desc": "Festival of lights — crows, dogs and cows honoured, Laxmi puja with lights & rangoli, and Bhai Tika on the final day."
+    },
+    {
+      "name": "Chhath",
+      "np": "छठ",
+      "date": "Nov 8–11",
+      "month": "Kartik 22–25",
+      "region": "Terai, nationwide",
+      "color": "#0ea5e9",
+      "desc": "Worship of the Sun god — fasting women stand in rivers at dawn & dusk offering argha."
+    }
+  ]
+}

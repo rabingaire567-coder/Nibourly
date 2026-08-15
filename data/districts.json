@@ -1,0 +1,543 @@
+{
+  "districts": [
+    {
+      "d": "Taplejung",
+      "p": "koshi",
+      "z": "Mechi",
+      "hq": "Phungling",
+      "k": "Kanchenjunga, Pathibhara, Tinjure forest"
+    },
+    {
+      "d": "Sankhuwasabha",
+      "p": "koshi",
+      "z": "Koshi",
+      "hq": "Khandbari",
+      "k": "Mt. Makalu, Arun river, Kimathanka border"
+    },
+    {
+      "d": "Solukhumbu",
+      "p": "koshi",
+      "z": "Sagarmatha",
+      "hq": "Salleri",
+      "k": "Everest base, Namche Bazaar, Sherpa culture"
+    },
+    {
+      "d": "Okhaldhunga",
+      "p": "koshi",
+      "z": "Sagarmatha",
+      "hq": "Siddhicharan",
+      "k": "Halesi Mahadev, Siddhicharan shrine"
+    },
+    {
+      "d": "Khotang",
+      "p": "koshi",
+      "z": "Sagarmatha",
+      "hq": "Diktel",
+      "k": "Halesi cave (Tungnath), Diktel bazaar"
+    },
+    {
+      "d": "Bhojpur",
+      "p": "koshi",
+      "z": "Koshi",
+      "hq": "Bhojpur",
+      "k": "Famous Bhojpur khukuri, gold-sand rivers"
+    },
+    {
+      "d": "Dhankuta",
+      "p": "koshi",
+      "z": "Koshi",
+      "hq": "Dhankuta",
+      "k": "Dhankuta hill town, tea gardens"
+    },
+    {
+      "d": "Terhathum",
+      "p": "koshi",
+      "z": "Mechi",
+      "hq": "Myanglung",
+      "k": "Tinjure-Milke-Jaljale rhododendron hills"
+    },
+    {
+      "d": "Panchthar",
+      "p": "koshi",
+      "z": "Mechi",
+      "hq": "Phidim",
+      "k": "Phidim, Kabeli river, orange & tea farms"
+    },
+    {
+      "d": "Ilam",
+      "p": "koshi",
+      "z": "Mechi",
+      "hq": "Ilam",
+      "k": "Tea gardens, Kanyam, Mai Pokhari"
+    },
+    {
+      "d": "Jhapa",
+      "p": "koshi",
+      "z": "Mechi",
+      "hq": "Bhadrapur",
+      "k": "Koshi Tappu, border trade, fertile farms"
+    },
+    {
+      "d": "Morang",
+      "p": "koshi",
+      "z": "Koshi",
+      "hq": "Biratnagar",
+      "k": "Industrial hub Biratnagar, Koshi Barrage"
+    },
+    {
+      "d": "Sunsari",
+      "p": "koshi",
+      "z": "Koshi",
+      "hq": "Inaruwa",
+      "k": "Dharan, Baraha Chhetra, Koshi river"
+    },
+    {
+      "d": "Udayapur",
+      "p": "koshi",
+      "z": "Sagarmatha",
+      "hq": "Gaighat",
+      "k": "Udayapur Gadhi, Triyuga, river valleys"
+    },
+    {
+      "d": "Saptari",
+      "p": "madhesh",
+      "z": "Sagarmatha",
+      "hq": "Rajbiraj",
+      "k": "Chhinnamasta temple, Rajbiraj town"
+    },
+    {
+      "d": "Siraha",
+      "p": "madhesh",
+      "z": "Sagarmatha",
+      "hq": "Siraha",
+      "k": "Lahan bazaar, Dhanushadham access, farms"
+    },
+    {
+      "d": "Dhanusha",
+      "p": "madhesh",
+      "z": "Janakpur",
+      "hq": "Janakpur",
+      "k": "Janaki Mandir, Mithila art & culture"
+    },
+    {
+      "d": "Mahottari",
+      "p": "madhesh",
+      "z": "Janakpur",
+      "hq": "Jaleshwar",
+      "k": "Jaleshwar temple, maize belt, Bhangaha"
+    },
+    {
+      "d": "Sarlahi",
+      "p": "madhesh",
+      "z": "Janakpur",
+      "hq": "Malangwa",
+      "k": "Sugar mills, Karmaiya, green Terai"
+    },
+    {
+      "d": "Rautahat",
+      "p": "madhesh",
+      "z": "Narayani",
+      "hq": "Gaur",
+      "k": "Historic Gaur, Chandrapur, border trade"
+    },
+    {
+      "d": "Bara",
+      "p": "madhesh",
+      "z": "Narayani",
+      "hq": "Kalaiya",
+      "k": "Nijgadh, Simara airport, Pathlaiya"
+    },
+    {
+      "d": "Parsa",
+      "p": "madhesh",
+      "z": "Narayani",
+      "hq": "Birgunj",
+      "k": "Dry port, biggest Nepal–India trade gate"
+    },
+    {
+      "d": "Dolakha",
+      "p": "bagmati",
+      "z": "Janakpur",
+      "hq": "Charikot",
+      "k": "Jiri (Everest gateway), Bhimeshwar temple"
+    },
+    {
+      "d": "Sindhupalchok",
+      "p": "bagmati",
+      "z": "Bagmati",
+      "hq": "Chautara",
+      "k": "Melamchi water project, Panch Pokhari"
+    },
+    {
+      "d": "Rasuwa",
+      "p": "bagmati",
+      "z": "Bagmati",
+      "hq": "Dhunche",
+      "k": "Langtang valley, Gosaikunda lake"
+    },
+    {
+      "d": "Dhading",
+      "p": "bagmati",
+      "z": "Bagmati",
+      "hq": "Dhadingbesi",
+      "k": "Rubi Valley, Manaslu views, Gajuri"
+    },
+    {
+      "d": "Nuwakot",
+      "p": "bagmati",
+      "z": "Bagmati",
+      "hq": "Bidur",
+      "k": "Nuwakot Durbar, Trishuli river rafting"
+    },
+    {
+      "d": "Kathmandu",
+      "p": "bagmati",
+      "z": "Bagmati",
+      "hq": "Kathmandu",
+      "k": "Capital — Pashupatinath, Swayambhunath, Boudha"
+    },
+    {
+      "d": "Bhaktapur",
+      "p": "bagmati",
+      "z": "Bagmati",
+      "hq": "Bhaktapur",
+      "k": "Durbar Square, Nyatapola, Bisket Jatra"
+    },
+    {
+      "d": "Lalitpur",
+      "p": "bagmati",
+      "z": "Bagmati",
+      "hq": "Patan",
+      "k": "Patan Durbar, Krishna Mandir, Newari art"
+    },
+    {
+      "d": "Kavrepalanchok",
+      "p": "bagmati",
+      "z": "Bagmati",
+      "hq": "Dhulikhel",
+      "k": "Dhulikhel sunrise, Panauti, Namobuddha"
+    },
+    {
+      "d": "Sindhuli",
+      "p": "bagmati",
+      "z": "Janakpur",
+      "hq": "Kamalamai",
+      "k": "Sindhuli Gadhi fort, Kamalamai valley"
+    },
+    {
+      "d": "Ramechhap",
+      "p": "bagmati",
+      "z": "Janakpur",
+      "hq": "Manthali",
+      "k": "Sunkoshi views, pilgrimage routes"
+    },
+    {
+      "d": "Chitwan",
+      "p": "bagmati",
+      "z": "Narayani",
+      "hq": "Bharatpur",
+      "k": "Chitwan National Park, one-horned rhino"
+    },
+    {
+      "d": "Makwanpur",
+      "p": "bagmati",
+      "z": "Narayani",
+      "hq": "Hetauda",
+      "k": "Hetauda, Chitlang, Indra Sarovar dam"
+    },
+    {
+      "d": "Gorkha",
+      "p": "gandaki",
+      "z": "Gandaki",
+      "hq": "Gorkha",
+      "k": "Gorkha Durbar, Manakamana, Mt. Manaslu"
+    },
+    {
+      "d": "Lamjung",
+      "p": "gandaki",
+      "z": "Gandaki",
+      "hq": "Besisahar",
+      "k": "Annapurna circuit, Marsyangdi river"
+    },
+    {
+      "d": "Tanahun",
+      "p": "gandaki",
+      "z": "Gandaki",
+      "hq": "Damauli",
+      "k": "Bandipur bazaar, Seti river, Tadi"
+    },
+    {
+      "d": "Syangja",
+      "p": "gandaki",
+      "z": "Gandaki",
+      "hq": "Putalibazar",
+      "k": "Historic Waling, Siddhartha highway"
+    },
+    {
+      "d": "Kaski",
+      "p": "gandaki",
+      "z": "Gandaki",
+      "hq": "Pokhara",
+      "k": "Phewa Lake, Sarangkot, Machhapuchhre"
+    },
+    {
+      "d": "Manang",
+      "p": "gandaki",
+      "z": "Gandaki",
+      "hq": "Chame",
+      "k": "Annapurna range, Tilicho Lake, Thorong La"
+    },
+    {
+      "d": "Mustang",
+      "p": "gandaki",
+      "z": "Dhaulagiri",
+      "hq": "Jomsom",
+      "k": "Muktinath, Lo Manthang, Kagbeni desert"
+    },
+    {
+      "d": "Myagdi",
+      "p": "gandaki",
+      "z": "Dhaulagiri",
+      "hq": "Beni",
+      "k": "Dhaulagiri, Poon Hill, Beni bazaar"
+    },
+    {
+      "d": "Parbat",
+      "p": "gandaki",
+      "z": "Dhaulagiri",
+      "hq": "Kusma",
+      "k": "Kusma, Modi river, hill town charm"
+    },
+    {
+      "d": "Baglung",
+      "p": "gandaki",
+      "z": "Dhaulagiri",
+      "hq": "Baglung",
+      "k": "Kalika temple, Dhaulagiri viewpoints"
+    },
+    {
+      "d": "Nawalpur",
+      "p": "gandaki",
+      "z": "Narayani",
+      "hq": "Kawasoti",
+      "k": "Kawasoti, Triveni, Gaidakot wetlands"
+    },
+    {
+      "d": "Rupandehi",
+      "p": "lumbini",
+      "z": "Lumbini",
+      "hq": "Siddharthanagar",
+      "k": "Lumbini (Buddha's birth), Bhairahawa, Tilaurakot"
+    },
+    {
+      "d": "Kapilvastu",
+      "p": "lumbini",
+      "z": "Lumbini",
+      "hq": "Taulihawa",
+      "k": "Kapilvastu ruins, Niglihawa pillars"
+    },
+    {
+      "d": "Arghakhanchi",
+      "p": "lumbini",
+      "z": "Lumbini",
+      "hq": "Sandhikharka",
+      "k": "Argha & Khanchi temples, scenic hills"
+    },
+    {
+      "d": "Gulmi",
+      "p": "lumbini",
+      "z": "Lumbini",
+      "hq": "Tamghas",
+      "k": "Ridi shrine, coffee & citrus hills"
+    },
+    {
+      "d": "Palpa",
+      "p": "lumbini",
+      "z": "Lumbini",
+      "hq": "Tansen",
+      "k": "Tansen bazaar, Rani Mahal, hills"
+    },
+    {
+      "d": "Parasi",
+      "p": "lumbini",
+      "z": "Lumbini",
+      "hq": "Ramgram",
+      "k": "Ramgram Stupa, Triveni Sangam"
+    },
+    {
+      "d": "Banke",
+      "p": "lumbini",
+      "z": "Bheri",
+      "hq": "Nepalgunj",
+      "k": "Nepalgunj trade hub, Banke National Park"
+    },
+    {
+      "d": "Bardiya",
+      "p": "lumbini",
+      "z": "Bheri",
+      "hq": "Gulariya",
+      "k": "Bardiya NP tigers, Tharu culture"
+    },
+    {
+      "d": "Dang",
+      "p": "lumbini",
+      "z": "Rapti",
+      "hq": "Ghorahi",
+      "k": "Dang–Deukhuri valley, Tulsipur"
+    },
+    {
+      "d": "Pyuthan",
+      "p": "lumbini",
+      "z": "Rapti",
+      "hq": "Pyuthan",
+      "k": "Swargadwari temple, hill villages"
+    },
+    {
+      "d": "Rolpa",
+      "p": "lumbini",
+      "z": "Rapti",
+      "hq": "Liwang",
+      "k": "Thawang, remote alpine scenery"
+    },
+    {
+      "d": "Eastern Rukum",
+      "p": "lumbini",
+      "z": "Rapti",
+      "hq": "Rukumkot",
+      "k": "Rukumkot, alpine meadows, Lukum river"
+    },
+    {
+      "d": "Western Rukum",
+      "p": "karnali",
+      "z": "Rapti",
+      "hq": "Musikot",
+      "k": "Musikot, Karnali gorge views"
+    },
+    {
+      "d": "Salyan",
+      "p": "karnali",
+      "z": "Rapti",
+      "hq": "Salyan",
+      "k": "Salyan bazaar, green hill ridges"
+    },
+    {
+      "d": "Surkhet",
+      "p": "karnali",
+      "z": "Bheri",
+      "hq": "Birendranagar",
+      "k": "Provincial capital, Kakrebihar ruins"
+    },
+    {
+      "d": "Dailekh",
+      "p": "karnali",
+      "z": "Bheri",
+      "hq": "Narayan",
+      "k": "Padukasthan, Tripura Sundari temple"
+    },
+    {
+      "d": "Jajarkot",
+      "p": "karnali",
+      "z": "Bheri",
+      "hq": "Khalanga",
+      "k": "Jajarkot palace, Juni Chandevi temple"
+    },
+    {
+      "d": "Dolpa",
+      "p": "karnali",
+      "z": "Karnali",
+      "hq": "Dunai",
+      "k": "Shey Phoksundo lake, upper Dolpo"
+    },
+    {
+      "d": "Jumla",
+      "p": "karnali",
+      "z": "Karnali",
+      "hq": "Chandannath",
+      "k": "Sinja valley — origin of Nepali language, apples"
+    },
+    {
+      "d": "Kalikot",
+      "p": "karnali",
+      "z": "Karnali",
+      "hq": "Manma",
+      "k": "Alpine villages, Karnali corridor"
+    },
+    {
+      "d": "Mugu",
+      "p": "karnali",
+      "z": "Karnali",
+      "hq": "Gamgadhi",
+      "k": "Rara Lake — Nepal's largest lake"
+    },
+    {
+      "d": "Humla",
+      "p": "karnali",
+      "z": "Karnali",
+      "hq": "Simikot",
+      "k": "Limi valley, Mt. Kailash trekking route"
+    },
+    {
+      "d": "Bajura",
+      "p": "sudurpaschim",
+      "z": "Seti",
+      "hq": "Martadi",
+      "k": "Badimalika temple, Khaptad approach"
+    },
+    {
+      "d": "Bajhang",
+      "p": "sudurpaschim",
+      "z": "Seti",
+      "hq": "Jayaprithvi",
+      "k": "Saipal Himal, Surma Sarovar lake"
+    },
+    {
+      "d": "Achham",
+      "p": "sudurpaschim",
+      "z": "Seti",
+      "hq": "Mangalsen",
+      "k": "Ramsikhar, Masto shrine, hill farms"
+    },
+    {
+      "d": "Doti",
+      "p": "sudurpaschim",
+      "z": "Seti",
+      "hq": "Dipayal Silgadhi",
+      "k": "Dipayal, Doti Durbar, Khaptad gate"
+    },
+    {
+      "d": "Kailali",
+      "p": "sudurpaschim",
+      "z": "Seti",
+      "hq": "Dhangadhi",
+      "k": "Dhangadhi, Ghodaghodi lake, Godawari"
+    },
+    {
+      "d": "Kanchanpur",
+      "p": "sudurpaschim",
+      "z": "Mahakali",
+      "hq": "Bheemdatta",
+      "k": "Shuklaphanta NP, Dodhara–Chandani bridge"
+    },
+    {
+      "d": "Dadeldhura",
+      "p": "sudurpaschim",
+      "z": "Mahakali",
+      "hq": "Amargadhi",
+      "k": "Amargadhi, Udakamuni shrine"
+    },
+    {
+      "d": "Baitadi",
+      "p": "sudurpaschim",
+      "z": "Mahakali",
+      "hq": "Dasharathchand",
+      "k": "Hill temples, Ganga–Mahakali confluences"
+    },
+    {
+      "d": "Darchula",
+      "p": "sudurpaschim",
+      "z": "Mahakali",
+      "hq": "Khalanga",
+      "k": "Api Himal, Mahakali river, Chaulani"
+    }
+  ]
+}
