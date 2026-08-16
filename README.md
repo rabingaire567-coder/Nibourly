@@ -1,73 +1,44 @@
-# Nibourly 🇳🇵
+# 🇳🇵 Nibourly — AI-Powered Community Platform for Nepal
 
-**छिमेकी भावना, आधुनिक समाधान** — Nepal's AI-powered community platform for **Society & Daily Life**.
+**Theme:** Society & Daily Life
+**Stack:** React + Vite + TypeScript · Static data (JSON/TS) · localStorage · Google Gemini AI
 
-Nibourly connects neighbours across all **77 districts** of Nepal: report local issues, lend a helping hand, join festivals and events, find trusted local services, learn researched solutions to daily-life problems — and ask **Mitra AI**, your AI neighbour.
+Nibourly connects neighbours across all **7 provinces and 77 districts** of Nepal. Citizens can:
 
----
+- 🛠️ **Report civic issues** — garbage, water, potholes, power cuts, pollution, traffic and more (with exact province → district → place)
+- 🗳️ **Support community issues** — upvote reports so the ward and community act faster
+- 🗺️ **Explore Nepal** — every province, all 77 districts (headquarters, area, population, famous places) and major cities
+- 📚 **Find real solutions** — a curated library of practical answers for Nepal's most common society & daily-life problems
+- ✨ **Ask AI Sathi** — a Gemini-powered assistant with deep Nepal knowledge, with an offline fallback knowledge base
+- 🆘 **Emergency numbers** — Police 100, Fire 101, Ambulance 102, Disaster 1149, Women 1145, Child 1098 and more
 
-## ✨ Features
+## Run locally
 
-| Section | What it does |
-|---|---|
-| 🏠 **Home** | Live Nepal clock (UTC+5:45), load-shedding widget, festival of the day, community highlights, animated stats |
-| 🤝 **Community Help** | Ask for help or offer help — groceries, elderly care, blood, rides, tutoring… |
-| 🚧 **Report Issues** | Report potholes, waste, water, streetlights with urgency & status tracking |
-| 🎉 **Events & Festivals** | Full 2082 BS festival calendar (Dashain, Tihar, Chhath, Teej…) + community events |
-| 🔧 **Services Directory** | Electricians, plumbers, doctors, kirana, tuition — call or WhatsApp directly |
-| 💡 **Problem → Solutions** | 14 researched problems of Nepali daily life with practical solutions & contacts |
-| 🗺️ **Nepal Guide** | 7 provinces, all 77 districts, 26+ must-visit places, food & languages |
-| 🚨 **Emergency** | One-tap SOS (100), all national helplines + hospitals |
-| ✨ **Mitra AI** | Chat assistant powered by Google Gemini / Groq / OpenRouter — with a built-in Nepal knowledge engine that works even **without an API key** |
-
-## 🛠️ Tech Stack
-
-- **HTML / CSS / JavaScript** (vanilla SPA, no build step — works on GitHub Pages & file://)
-- **Static JSON** — all Nepal data lives in `/data/*.json` (and `js/data.js`)
-- **localStorage** — browser database (users, posts, reports, events, services, settings)
-- **AI Integration** — free API keys from Google AI Studio, Groq or OpenRouter
-
-## 🔑 AI Setup (30 seconds)
-
-1. Open **Settings → AI Assistant**
-2. Tap **"Open https://aistudio.google.com/apikey"** (or https://console.groq.com/keys)
-3. Create a free key and paste it in Settings → **Test Connection**
-
-**Free & fast Gemini models included:** `gemini-2.5-flash` (default, fast), `gemini-2.5-flash-lite` (fastest), `gemini-2.0-flash`, `gemini-1.5-flash`, `gemini-2.5-pro` (smartest). Flash models answer in seconds — thinking is disabled on 2.5 models for speed.
-
-> No key? No problem — Mitra answers instantly from the built-in Nepal knowledge base.
-
-## 🚀 Run Locally
-
-Open `index.html` in any browser — no server or install needed.
-
-Or serve it:
 ```bash
-python -m http.server 8080
-# then open http://localhost:8080
+npm install
+npm run dev        # http://localhost:5173
 ```
 
-## ☁️ Deploy to GitHub Pages
+## Build
 
-1. Create a repo and push this folder.
-2. GitHub → Settings → Pages → Source: **Deploy from a branch** → `main` / root.
-3. Your site is live at `https://<username>.github.io/<repo>/`.
-
-## 📦 Project Structure
-
-```
-Nibourly/
-├── index.html          # App shell (nav, modals, chat, footer)
-├── css/style.css       # Design system + animations
-├── js/
-│   ├── data.js         # Canonical Nepal data (77 districts, 7 provinces…)
-│   ├── db.js           # localStorage database layer
-│   ├── ai.js           # AI providers (Gemini/Groq/OpenRouter) + fallback engine
-│   ├── ui.js           # UI helpers & animation engine
-│   └── app.js          # Router, pages, chat, modals
-├── data/               # Static JSON data files
-├── assets/logo.svg
-└── README.md
+```bash
+npm run build      # outputs to dist/
+npm run preview    # preview the production build
 ```
 
-Built with ❤️ in Nepal for the Vibe Coding Hackathon.
+## Configure your own Gemini API key
+
+1. Get a free key at https://aistudio.google.com/apikey
+2. Open the app → **Settings → Gemini AI connection**
+3. Paste the key and click **Test & save key**
+
+The key is stored only in your browser's localStorage. A default key is bundled for the hackathon.
+
+## Data & privacy
+
+- All reports, saved solutions and chat history live in **localStorage** — nothing is uploaded to a server.
+- Nepal dataset: 7 provinces, 77 districts, 30+ cities, 16 solution guides, 10 emergency helplines.
+
+## Live site
+
+Deployed with GitHub Actions → GitHub Pages.
